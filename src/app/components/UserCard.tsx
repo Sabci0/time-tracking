@@ -4,7 +4,6 @@ import userImage from "@/img/image-jeremy.png";
 const UserCard = () => {
     return (
         <div className="bg-Blue rounded-xl px-6 pt-10 pb-16 flex-row lg:flex-col flex gap-8 w-full">
-            {/* user Image */}
             <Image
                 src={userImage}
                 alt="user-image"
